@@ -7,7 +7,7 @@ app.use(express.static("public"));
 app.use(bodyParser.urlencoded({extended: true}));
 
 
-mongoose.connect("mongodb+srv://admin:duo_123@cluster0.vat3c.mongodb.net/FormData", {useNewUrlParser: true, useUnifiedTopology: true});
+mongoose.connect("mongodb+srv://admin:@cluster0.vat3c.mongodb.net/FormData", {useNewUrlParser: true, useUnifiedTopology: true});
 
 
 const schema ={
@@ -80,7 +80,7 @@ app.post("/contactus.html",function(req, res){
 
     contactdata.save(function(err){
         if (!err){
-            res.redirect("/index.html");
+            res.redirect("/thankyou.html");
         }
     });
 
@@ -106,7 +106,7 @@ app.post("/analysis.html",function(req, res){
 
 
 
-    const analysisdata = new analysis({
+    var analysisdata = new analysis({
 
         Timestamp : date,
         Name : fname,
@@ -118,9 +118,14 @@ app.post("/analysis.html",function(req, res){
         Website : website
     });
 
+
+    console.log(analysisdata);
 analysisdata.save(function(err){
+
+    console.log(err);
+
     if (!err){
-        res.redirect("/index.html");
+        res.redirect("/thankyou.html");
     }
 });
 

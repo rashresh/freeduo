@@ -26,6 +26,7 @@ $("#Service").on("change",function(){
 
         $(".WEBSITE").removeClass("hide");
         $(".INSTAGRAM").addClass("hide");
+        return false;
 
 
     }

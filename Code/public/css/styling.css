@@ -7,9 +7,200 @@
 /*Head - 1.5rem*/
 
 
+.portdetails{
+
+    margin-top: 5%;
+    background-image: url("../images/bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 400px;
+
+
+}
+
+.portfolio{
+
+    width : 80%;
+    box-shadow: 0px 0px 3px grey;
+
+
+}
+
+
+
+
+.portdetails{
+
+    margin-top: 5%;
+    background-image: url("../images/bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 400px;
+
+
+}
+
+.portmain{
+    display : block;
+    margin-top : 10%;
+    font-weight: bolder;
+    color : black;
+    font-family: 'Eczar', serif;
+    font-size: 1.2rem;
+
+    /*font-family: 'Coming Soon', cursive;*/
+}
+
+.portdate{
+
+    font-weight: bolder;
+    color : black;
+    font-size: 1rem;
+
+}
+
+.portdescmain{
+
+    font-weight: bolder;
+    color : black;
+    font-size: 1rem;
+    padding-left: 20%;
+    padding-right: 20%;
+    text-align: center;
+    font-style: italic;
+
+
+}
+
+.portdesc{
+
+    font-weight: lighter;
+    color : black;
+    font-size: 1rem;
+    text-align: left;
+    font-style: italic;
+    padding-left: 23%;
+    line-height: 1rem;
+
+
+}
+
+.porticon{
+
+    height : 2.5rem;
+    margin-right: 1%;
+}
+
 .heightcontrol{
 
     height: 200px;
+
+}
+
+.thank-yellow-bubble{
+
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-image: url("../images/thankbg.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 750px;
+    position : relative;
+
+
+}
+
+.mainsection{
+
+    overflow: hidden;
+}
+
+.ladyimage{
+
+    position : absolute;
+    right : 0px;
+    width : 30%;
+
+}
+
+
+
+.linkedin{
+
+    position: absolute;
+    top : 300px;
+    left : -20px;
+    width: 100%;
+
+}
+
+.contactthank{
+
+    position: absolute;
+    text-align: center;
+    top : 500px;
+    left : -20px;
+    width: 100%;
+
+}
+
+
+.linkheading{
+
+    font-family: 'Playball', cursive;
+    text-align: center;
+    color : #111D5F;
+    font-size: 2rem;
+    margin-bottom: 2%;
+    margin-top: 4%;
+    padding: 0;
+    z-index: 100;
+
+
+}
+
+.link-linkedin{
+
+
+    font-family: "Arial Black";
+    background-color: white;
+    font-size: 1.3rem;
+    padding : 2%;
+    border-radius: 7px;
+    color : #0077B5;
+    width: 100%;
+    display: inline;
+}
+
+.fab{
+
+    color : #0077B5;
+    font-size: 1000px;
+
+}
+
+.powtoon{
+
+    margin-left: -15px; margin-right: 15px; margin-bottom:-15px;
+
+}
+
+
+.yellowdesc{
+    font-family: 'Coming Soon', cursive;
+    text-align: center;
+    width: 50%;
+    font-weight: lighter;
+    color : #111D5F;
+    font-size: 2rem;
+    padding: 0;
+    position: absolute;
+
+    top : 100px;
+    left : 100px;
 
 }
 
@@ -64,9 +255,10 @@ a:hover{
 .subheading{
 
     text-align: center;
-    color : #FF9101;
+    color : #111D5F;
     font-size: 2.5rem;
-    font-family: 'Oleo Script';
+    font-family: 'Eczar', serif;
+    font-weight: bold;
     margin-bottom: 5%;
     padding: 0;
     margin-top: 5%;
@@ -360,7 +552,7 @@ position : absolute;
     padding-bottom: 0%;
     color: #111D5F;
     font-weight: lighter;
-    font-size: 0.5rem;
+    font-size: 0.7rem;
     text-align: center;
 
 
@@ -512,25 +704,31 @@ background-color: #FFF60F;
 
 }
 
-.carousel-control-next, .carousel-control-prev{
+.carousel-control-next, .carousel-control-prev, .carousel-control-next:hover, .carousel-control-prev:hover {
 
     opacity: 100%;
     color : #111D5F;
     font-size: 2rem;
 }
 
+
+
+
+
 /*-------------------------Contact Us Form--------------------------*/
 
 .connectform{
 
     background-color: #FFF60F;
-    margin-top: 2%;
+    margin-top: 5%;
     margin-bottom: 5%;
     padding-left : 3%;
     padding-right : 3%;
     padding-top: 1%;
     padding-bottom: 2%;
-    width: 40%;
+    width: 50%;
+    border-radius : 5px;
+    box-shadow: 0px 1px 4px grey;
 }
 
 .contactheading{
@@ -540,6 +738,7 @@ background-color: #FFF60F;
     color : #111D5F;
     font-size: 3rem;
     margin-bottom: 2%;
+    margin-top: 4%;
     padding: 0;
 
 
@@ -553,12 +752,33 @@ background-color: #FFF60F;
 
 }
 
+.contactformmainheading{
+    font-family: 'Eczar', serif;
+    text-align: center;
+    font-weight: bolder;
+    color : #111D5F;
+    font-size: 2.5rem;
+
+    padding: 0;
+    margin-top: 4%;
+}
+
+.contactformmaindesc{
+    font-family: 'Coming Soon', cursive;
+    text-align: center;
+    font-weight: lighter;
+    color : #111D5F;
+    font-size: 1.2rem;
+    padding: 0;
+}
+
 .wraparound{
 
     background-color: #FFF60F;
     padding: 2%;
     margin-top : 2%;
     margin-bottom : 2%;
+    position : relative;
 
     border-radius: 8px;
 
@@ -963,20 +1183,237 @@ label{
 .services-section{
 
     position: relative;
-    height : 170vh;
+    height : 1200px;
 
 }
 
 
 .centralimage{
 
-    width: 25%;
+    width: 30%;
     position : absolute;
-    top : 30px;
+    top : 80px;
     left : 420px;
 }
 
+.insideround{
 
+    position: absolute;
+    width : 20%;
+    text-align: center;
+    font-size: 0.8rem;
+    font-weight: bolder;
+    top : 310px;
+    left : 480px;
+    color: navy;
+}
+
+.insideround::before{
+
+    content:'“';
+    font-size: 1.3rem;
+    position: absolute;
+    top : -15px;
+    left : -10px;
+
+}
+
+.insideround::after{
+
+    content:'“';
+    font-size: 1.3rem;
+    position: absolute;
+    top : -15px;
+    right : -10px;
+
+}
+
+.right1{
+
+    position : absolute;
+    top : 480px;
+    left : 576px;
+
+}
+
+
+.left2{
+
+    position : absolute;
+    top : 680px;
+    left : -47px;
+
+}
+
+
+
+.right3{
+
+     position : absolute;
+     top : 880px;
+    left : 583px;
+
+ }
+
+.left4{
+
+    position : absolute;
+    top : 1080px;
+    left : -45px;
+
+}
+
+.right5{
+
+    position : absolute;
+    top : 1280px;
+    left : 583px;
+
+}
+
+.left6{
+
+    position : absolute;
+    top : 1480px;
+    left : -45px;
+
+}
+
+.barheading{
+
+    position : absolute;
+    font-weight: bolder;
+
+
+}
+
+
+.heading1{
+
+    top : 7px;
+    left : 270px;
+
+}
+
+.heading2{
+
+    top : 7px;
+    left : 80px;
+
+}
+
+
+.barcontent{
+
+    position : absolute;
+    width : 55%;
+    line-height: 110%;
+    font-size: 0.8rem;
+}
+
+
+.content1{
+
+
+    top : 32px;
+    left : 270px;
+
+}
+
+.content2{
+
+
+    top : 32px;
+    left : 80px;
+
+}
+
+.balldesc{
+
+    text-align: center;
+    font-size: 0.9rem;
+    font-weight: bolder;
+    color : #111D5F;
+    margin-top: 3%;
+    position : relative;
+}
+
+.balldesc::after{
+
+content:'“';
+font-size: 1.3rem;
+position: absolute;
+top : -15px;
+right : -10px;
+}
+
+
+.balldesc::before{
+
+    content:'“';
+    font-size: 1.3rem;
+    position: absolute;
+    top : -15px;
+    left : -10px;
+
+}
+
+
+.ballimage{
+
+
+    width: 100%;
+    text-align: center;
+    margin-top: 20%;
+
+}
+
+
+
+
+.iconlogo {
+
+
+    height: 100px;
+    width: 100px;
+    position: relative;
+    top: 50px;
+    text-align: center;
+
+}
+
+.boxAround {
+
+    background-color: #FFF60F;
+    border-radius: 20px;
+}
+
+
+.boxh {
+
+
+    min-height: 200px ;
+    font-size: 1.2rem;
+    padding: 5%;
+}
+
+.boxheading{
+
+    font-weight: bolder;
+
+}
+
+.boxdesc{
+
+font-size: 1rem;
+
+}
+
+.metricimage{
+
+    width:60%;
+
+}
 
 
 
@@ -1170,6 +1607,9 @@ label{
 
     }
 
+
+
+
     input, option, textarea, select, label{
 
         margin-bottom: 0;
@@ -1183,7 +1623,7 @@ label{
     label{
 
         font-size: 1rem;
-        padding-top: 5%;
+
 
     }
 
@@ -1203,6 +1643,131 @@ label{
 /*-------------------------MEDIA QUERIES------------------------*/
 
 @media only screen and (max-width: 375px) {
+
+    .smallscreen{display : block;}
+    .normalscreen{display : none;}
+    .largescreen{display : none;}
+    .otherscreen{display : block;}
+
+    .portdetails{
+
+        height : 250px!important;
+
+    }
+
+
+    .portdetails, .portdate , .portdescmain{
+
+        font-size: 0.5rem!important;
+        width: 100%;
+        padding-left : 3%;
+        padding-right : 3%;
+
+
+
+    }
+
+    .portdesc{
+
+        display : none;
+
+    }
+
+    .portmain{
+
+        margin-top : 34%;
+        font-size: 0.7rem!important;
+
+    }
+
+    .portfolio{
+
+     width: 100% !important;
+        text-align: center;
+    }
+
+
+    .yellowdesc{
+        font-size: 1.2rem;
+
+        top : 80px;
+        left : 70px;
+
+    }
+
+    .ladyimage{
+
+        position : absolute;
+        right : 0px;
+        width : 30%;
+
+    }
+
+    .thank-yellow-bubble{
+
+        height : 500px;
+
+    }
+
+    .powtoon{
+
+        margin-left: -10px; margin-right: 15px; margin-bottom:-10px;
+
+    }
+
+
+    .linkedin{
+
+
+        top : 180px;
+        left : -20px;
+
+
+    }
+
+    .contactthank{
+
+
+        top : 300px;
+        left : -5px;
+
+    }
+
+
+    .linkheading{
+
+        font-size: 1.5rem;
+
+    }
+
+    .link-linkedin{
+
+        font-size: 0.8rem;
+        display: inline;
+    }
+
+
+    .contactthank .contactfooterheading{
+
+        font-size : 1.3rem;
+
+    }
+
+
+    .contactthank .contactfootertextno{
+
+        font-size : 0.8rem;
+
+
+    }
+
+    .contactthank .contactfootertext{
+
+        font-size : 0.8rem;
+
+    }
+
+
 
     .centertext{
 
@@ -1249,10 +1814,64 @@ label{
     }
 
 
+    .boxheading{
+
+        margin-top: 22%;
+
+    }
+
 
 }
 
 @media only screen and (min-width: 375px) {
+
+    .portfolio{
+
+        width: 100% !important;
+        text-align: center;
+    }
+
+    .portdetails, .portdate , .portdescmain{
+
+        font-size: 0.7rem!important;
+        width: 100%;
+        padding-left : 3%;
+        padding-right : 3%;
+
+
+    }
+
+    .portdesc{
+
+        display : none;
+
+    }
+
+    .portmain{
+
+margin-top : 25%;
+        font-size: 0.9rem!important;
+
+    }
+
+    .smallscreen{display : block;}
+    .normalscreen{display : none;}
+    .largescreen{display : none;}
+    .otherscreen{display : block;}
+
+
+    .portdetails{
+
+        height : 250px!important;
+
+    }
+
+    .boxheading{
+
+        margin-top: 12%;
+
+    }
+
 
     .serviceicon{
 
@@ -1305,6 +1924,30 @@ label{
 
 @media only screen and (min-width: 425px) {
 
+    .portdetails, .portdate , .portdescmain{
+
+        font-size: 0.7rem!important;
+        width: 100%;
+        padding : 0;
+
+
+    }
+
+    .portdesc{
+
+        display : none;
+
+    }
+
+    .portmain{
+
+        margin-top : 20%;
+        font-size: 1rem!important;
+
+    }
+
+
+
     .serviceicon{
 
         width: 100%;
@@ -1312,6 +1955,89 @@ label{
 
         left : 3%;
     }
+
+
+
+    .yellowdesc{
+        font-size: 1.2rem;
+
+        top : 80px;
+        left : 80px;
+
+    }
+
+    .ladyimage{
+
+        position : absolute;
+        right : 0px;
+        width : 30%;
+
+    }
+
+    .thank-yellow-bubble{
+
+        height : 500px;
+
+    }
+
+    .powtoon{
+
+        margin-left: -10px; margin-right: 15px; margin-bottom:-10px;
+
+    }
+
+
+    .linkedin{
+
+
+        top : 180px;
+        left : -20px;
+
+
+    }
+
+    .contactthank{
+
+
+        top : 300px;
+        left : -5px;
+
+    }
+
+
+    .linkheading{
+
+        font-size: 1.5rem;
+
+    }
+
+    .link-linkedin{
+
+        font-size: 0.8rem;
+        display: inline;
+    }
+
+
+    .contactthank .contactfooterheading{
+
+        font-size : 1.3rem;
+
+    }
+
+
+    .contactthank .contactfootertextno{
+
+        font-size : 0.8rem;
+
+
+    }
+
+    .contactthank .contactfootertext{
+
+        font-size : 0.8rem;
+
+    }
+
 
 
     .centertext{
@@ -1343,6 +2069,93 @@ label{
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px)  {
+
+    .portdesc{
+
+        display : block;
+
+    }
+
+    .portdetails{
+
+        margin-top: 5%;
+        background-image: url("../images/bg.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        height: 400px;
+
+
+    }
+
+    .portfolio{
+
+        width : 80%;
+        box-shadow: 0px 0px 3px grey;
+
+
+    }
+
+
+
+
+    .portdetails{
+
+        margin-top: 5%;
+        background-image: url("../images/bg.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        height: 400px;
+
+
+    }
+
+    .portmain{
+        display : block;
+        margin-top : 10%;
+        font-weight: bolder;
+        color : black;
+        font-family: 'Eczar', serif;
+        font-size: 1.2rem!important;
+
+        /*font-family: 'Coming Soon', cursive;*/
+    }
+
+    .portdate{
+
+        font-weight: bolder;
+        color : black;
+        font-size: 1rem!important;
+
+    }
+
+    .portdescmain{
+
+        font-weight: bolder;
+        color : black;
+        font-size: 1rem!important;
+        padding-left: 20%;
+        padding-right: 20%;
+        text-align: center;
+        font-style: italic;
+
+
+    }
+
+    .portdesc{
+
+        font-weight: lighter;
+        color : black;
+        font-size: 1rem!important;
+        text-align: left;
+        font-style: italic;
+        padding-left: 26%;
+        line-height: 1rem;
+
+
+    }
+
 
     .serviceicon{
 
@@ -1387,12 +2200,107 @@ label{
 
 
 
+    .yellowdesc{
+        font-size: 1.2rem;
+
+        top : 80px;
+        left : 70px;
+
+    }
+
+    .ladyimage{
+
+        position : absolute;
+        right : 0px;
+        width : 30%;
+
+    }
+
+    .thank-yellow-bubble{
+
+        height : 500px;
+
+    }
+
+    .powtoon{
+
+        margin-left: -10px; margin-right: 15px; margin-bottom:-10px;
+
+    }
+
+
+    .linkedin{
+
+
+        top : 180px;
+        left : -20px;
+
+
+    }
+
+    .contactthank{
+
+
+        top : 300px;
+        left : -5px;
+
+    }
+
+
+    .linkheading{
+
+        font-size: 1.5rem;
+
+    }
+
+    .link-linkedin{
+
+        font-size: 0.8rem;
+        display: inline;
+    }
+
+
+    .contactthank .contactfooterheading{
+
+        font-size : 1.3rem;
+
+    }
+
+
+    .contactthank .contactfootertextno{
+
+        font-size : 0.8rem;
+
+
+    }
+
+    .contactthank .contactfootertext{
+
+        font-size : 0.8rem;
+
+    }
+
 
 
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
+
+    .boxheading{
+
+        margin-top: 6%;
+
+    }
+
+
+    .portdetails{
+
+        height: 350px!important;
+
+    }
+
+
 
     .centertext{
 
@@ -1432,11 +2340,28 @@ label{
 
     }
 
+    .yellowdesc{
+        font-size: 1.2rem;
+
+        top : 100px;
+        left : 245px;
+        width : 30%;
+
+    }
+
+
 
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
+
+
+    .largescreen{display : none;}
+    .normalscreen{display : block;}
+    .smallscreen{display : none;}
+    .otherscreen{display : block;}
+
 
 
     .centertext{
@@ -1471,11 +2396,300 @@ label{
 
     }
 
+    .centralimage{
+
+        width: 30%;
+
+        top : 80px;
+        left : 325px;
+    }
+
+
+
+
+    .insideround{
+
+        position: absolute;
+        width : 20%;
+        text-align: center;
+        font-size: 0.7rem;
+        font-weight: bolder;
+        top : 270px;
+        left : 373px;
+        color: #111D5F;
+    }
+
+    .insideround::before{
+
+        content:'“';
+        font-size: 1.3rem;
+        position: absolute;
+        top : -15px;
+        left : -10px;
+
+    }
+
+    .insideround::after{
+
+        content:'“';
+        font-size: 1.3rem;
+        position: absolute;
+        top : -15px;
+        right : -10px;
+
+    }
+
+    .right1{
+
+        position : absolute;
+        top : 400px;
+        left : 454px;
+
+    }
+
+
+    .left2{
+
+        position : absolute;
+        top : 550px;
+        left : -20px;
+
+    }
+
+
+
+    .right3{
+
+        position : absolute;
+        top : 700px;
+        left : 462px;
+
+    }
+
+    .left4{
+
+        position : absolute;
+        top : 850px;
+        left : -1px;
+
+    }
+
+.right5{
+    position : absolute;
+    top : 1280px;
+    left : 583px;
+
+}
+
+.left6{
+
+    position : absolute;
+    top : 1480px;
+    left : -45px;
+
+}
+
+    .barheading{
+
+        position : absolute;
+        font-weight: bolder;
+        width : 40%;
+        line-height: 18px;
+
+
+    }
+
+
+    .heading1{
+
+        top : 9px;
+        left : 220px;
+
+    }
+
+    .heading2{
+
+        top : 9px;
+        left : 110px;
+
+    }
+
+
+    .barcontent{
+
+        position : absolute;
+        width : 50%;
+        line-height: 110%;
+        font-size: 0.8rem;
+    }
+
+
+    .content1{
+
+
+        top : 45px;
+        left : 220px;
+
+    }
+
+    .content2{
+
+
+        top : 44px;
+        left : 110px;
+
+    }
+
+    .services-section{
+
+        height : 1050px;
+
+    }
+
+    .yellowdesc{
+        font-size: 2rem;
+
+        top : 100px;
+        left : 80px;
+
+    }
+
+    .thank-yellow-bubble{
+
+        margin-top: 5%;
+        margin-bottom: 5%;
+        background-image: url("../images/thankbg.svg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        height: 750px;
+        position : relative;
+
+
+    }
+
+    .mainsection{
+
+        overflow: hidden;
+    }
+
+    .ladyimage{
+
+        position : absolute;
+        right : 0px;
+        width : 30%;
+
+    }
+
+
+
+    .linkedin{
+
+        position: absolute;
+        top : 300px;
+        left : -20px;
+        width: 100%;
+
+    }
+
+    .contactthank{
+
+        position: absolute;
+        text-align: center;
+        top : 500px;
+        left : -20px;
+        width: 100%;
+
+    }
+
+
+    .linkheading{
+
+        font-family: 'Playball', cursive;
+        text-align: center;
+        color : #111D5F;
+        font-size: 2rem;
+        margin-bottom: 2%;
+        margin-top: 4%;
+        padding: 0;
+        z-index: 100;
+
+
+    }
+
+    .link-linkedin{
+
+
+        font-family: "Arial Black";
+        background-color: white;
+        font-size: 1.3rem;
+        padding : 2%;
+        border-radius: 7px;
+        color : #0077B5;
+        width: 100%;
+        display: inline;
+    }
+
+    .fab{
+
+        color : #0077B5;
+        font-size: 1000px;
+
+    }
+
+    .powtoon{
+
+        margin-left: -15px; margin-right: 15px; margin-bottom:-15px;
+
+    }
+
+
+    .yellowdesc{
+        font-family: 'Coming Soon', cursive;
+        text-align: center;
+        width: 50%;
+        font-weight: lighter;
+        color : #111D5F;
+        font-size: 2rem;
+        padding: 0;
+        position: absolute;
+
+        top : 100px;
+        left : 100px;
+
+    }
+
+    .portdetails{
+
+        height: 400px!important;
+
+    }
 
 
 }
 
 @media only screen and (min-width: 1025px) {
+
+
+    .largescreen{display : block;}
+    .normalscreen{display : none;}
+    .smallscreen{display : none;}
+    .otherscreen{display : none;}
+
+
+    .yellowdesc{
+        font-size: 2rem;
+
+        top : 100px;
+        left : 100px;
+
+    }
+
+    /*.portdetails{*/
+
+    /*    height: 400px;*/
+
+    /*}*/
 
 
     .centertext{
@@ -1486,83 +2700,267 @@ label{
 
     }
 
+    .centralimage{
+
+        width: 30%;
+        position : absolute;
+        top : 80px;
+        left : 420px;
+    }
+
     .box1, .box2 {
 
         height : 320px;
 
     }
 
+    .insideround{
+
+        position: absolute;
+        width : 20%;
+        text-align: center;
+        font-size: 0.8rem;
+        font-weight: bolder;
+        top : 310px;
+        left : 480px;
+        color: navy;
+    }
+
+    .insideround::before{
+
+        content:'“';
+        font-size: 1.3rem;
+        position: absolute;
+        top : -15px;
+        left : -10px;
+
+    }
+
+    .insideround::after{
+
+        content:'“';
+        font-size: 1.3rem;
+        position: absolute;
+        top : -15px;
+        right : -10px;
+
+    }
+
+    .right1{
+
+        position : absolute;
+        top : 520px;
+        left : 576px;
+
+    }
+
+
+    .left2{
+
+        position : absolute;
+        top : 680px;
+        left : -47px;
+
+    }
+
+
+
+    .right3{
+
+        position : absolute;
+        top : 880px;
+        left : 583px;
+
+    }
+
+    .left4{
+
+        position : absolute;
+        top : 1080px;
+        left : -45px;
+
+    }
+
+
+    .right5{
+
+        position : absolute;
+        top : 1280px;
+        left : 583px;
+
+    }
+
+    .left6{
+
+        position : absolute;
+        top : 1480px;
+        left : -45px;
+
+    }
+
+    .barheading{
+
+        position : absolute;
+        font-weight: bolder;
+        width : 50%;
+
+
+    }
+
+
+    .heading1{
+
+        top : 7px;
+        left : 270px;
+
+    }
+
+    .heading2{
+
+        top : 7px;
+        left : 80px;
+
+    }
+
+
+    .barcontent{
+
+        position : absolute;
+        width : 55%;
+        line-height: 110%;
+        font-size: 0.8rem;
+    }
+
+
+    .content1{
+
+
+        top : 32px;
+        left : 270px;
+
+    }
+
+    .content2{
+
+
+        top : 32px;
+        left : 80px;
+
+    }
+
+    .services-section{
+
+        height : 1200px;
+
+    }
+
+
+
+
+
 
 
 }
 
 
+.container-cards {
+    position: absolute;
+    height: 400px;
+    width: 1000px;
+    top: 60px;
+    text-align: center;
+    left:6%;
+
+    display: flex;
+}
 
 
 
+.card {
+    display: flex;
+    height: 400px;
+    width: 500px;
+    background-color: #111D5F;
+    border-radius: 10px;
+    box-shadow: -1rem 0 3rem #000327;
+    /*   margin-left: -50px; */
+    transition: 0.4s ease-out;
+    position: relative;
+    left: 0px;
+    top : 20%;
+}
 
-/*.container {*/
-/*    position: absolute;*/
-/*    height: 300px;*/
-/*    width: 1000px;*/
-/*    top: 60px;*/
-/*    left : 15%;*/
-/*    display: flex;*/
-/*}*/
+.card:not(:first-child) {
+    margin-left: -50px;
+}
 
-/*.card {*/
-/*    display: flex;*/
-/*    height: 480px;*/
-/*    width: 800px;*/
-/*    background-color: #111D5F;*/
-/*    border-radius: 10px;*/
-/*    box-shadow: -1rem 0 3rem #000;*/
-/*    !*   margin-left: -50px; *!*/
-/*    transition: 0.4s ease-out;*/
-/*    position: relative;*/
-/*    left: 0px;*/
-/*    top : 20%;*/
-/*}*/
+.card:hover {
+    transform: translateY(-20px);
+    transition: 0.4s ease-out;
+}
 
-/*.card:not(:first-child) {*/
-/*    margin-left: -50px;*/
-/*}*/
+.card:hover ~ .card {
+    position: relative;
+    left: 50px;
+    transition: 0.4s ease-out;
+}
 
-/*.card:hover {*/
-/*    transform: translateY(-20px);*/
-/*    transition: 0.4s ease-out;*/
-/*}*/
+.title {
+    color: white;
+    font-weight: 300;
+    font-weight: bolder;
+    text-align: center;
+    width: 100%;
+    margin-top: 10%;
+    font-size: 1.2rem;
 
-/*.card:hover ~ .card {*/
-/*    position: relative;*/
-/*    left: 50px;*/
-/*    transition: 0.4s ease-out;*/
-/*}*/
+    padding-left : 8%;
+    padding-right : 4%;
+}
 
-/*.title {*/
-/*    color: white;*/
-/*    font-weight: 300;*/
-/*    position: absolute;*/
-/*    left: 20px;*/
-/*    top: 15px;*/
+.cardbody{
 
-/*    padding-left : 8%;*/
-/*    padding-right : 4%;*/
-/*}*/
+    color : #FFF60F;
+    font-size: 1rem;
+    top : 180px;
+    padding-left : 4%;
+    padding-right : 2%;
+    margin-top: 10%;
+}
 
-/*.cardbody{*/
+.cardicon{
 
-/*    color : #FFF60F;*/
-/*    font-size: 1rem;*/
-/*    position : absolute;*/
-/*    top : 180px;*/
-/*    padding-left : 4%;*/
-/*    padding-right : 2%;*/
+    margin-top:5%;
 
-/*}*/
+}
 
 
 
+.cardsdiv{
+
+    position:relative;
+
+}
 
 
+.how{
+
+    margin-top : 15%;
+    margin-bottom : 15%;
+
+}
+
+.metrics{
+
+    margin-bottom: 10%;
+    margin-top:0px;
+
+
+}
+
+.cards{
+
+    min-height: 60vh;
+
+}
 
